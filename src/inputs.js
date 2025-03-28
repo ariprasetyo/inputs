@@ -14,6 +14,8 @@ import IMath from './controls/math.js';
 //import Table from './table';
 //import Horner from './special/horner';
 
+import InputBox from './input-box.js';
+
 export default {
   base: Base,
   short: Short,
@@ -29,4 +31,6 @@ export default {
   math: IMath,
   //table: Table,
   //horner: Horner,
+
+  inputBox: InputBox,
 };
