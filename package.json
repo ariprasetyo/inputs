@@ -1,0 +1,17 @@
+{
+  "name": "inputs",
+  "version": "1.0.0",
+  "description": "Collection of extended html input",
+  "main": "./src/base.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --recursive"
+  },
+  "author": "Ari Prasetyo",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "check-types": "^11.1.2",
+    "mathlive": "^0.77.0"
+  }
+}
