@@ -1,5 +1,5 @@
-import InputBase from './base';
-import CommonParser from '@app/parser/common';
+import InputBase from './base.js';
+//import CommonParser from '@app/parser/common';
 
 /**
  * 
@@ -348,7 +348,7 @@ class InputShort extends InputBase {
 
 // Define Presets
 InputShort._parsers = {
-  number: {
+  /*number: {
     parse: CommonParser.parser.number,
     format: CommonParser.formatter.number,
     chars: /[0-9.,\s\(\)]/,
@@ -357,7 +357,7 @@ InputShort._parsers = {
     parse: CommonParser.parser.interval,
     format: CommonParser.formatter.interval,
     chars: /[0-9a-zU.,\s\(\)\[\]]/,
-  },
+  },*/
 };
 
 customElements.define("input-short", InputShort);

@@ -1,4 +1,4 @@
-import InputSelect from './select';
+import InputSelect from './select.js';
 import Sortable from 'sortablejs/modular/sortable.core.esm.js';
 
 /**

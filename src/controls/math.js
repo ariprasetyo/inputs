@@ -1,4 +1,4 @@
-import InputShort from './short';
+import InputShort from './short.js';
 import 'mathlive';
 
 /**

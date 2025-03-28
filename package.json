@@ -2,7 +2,7 @@
   "name": "inputs",
   "version": "1.0.0",
   "description": "Collection of extended html input",
-  "main": "./src/base.js",
+  "main": "./src/inputs.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha --recursive"
   },
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "check-types": "^11.1.2",
+    "sortablejs": "^1.15.0",
     "mathlive": "^0.77.0"
   }
 }

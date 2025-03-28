@@ -1,4 +1,4 @@
-import InputBase from './base';
+import InputBase from './base.js';
 //import Handsontable from 'handsontable';
 //import 'handsontable/dist/handsontable.min.css';
 
